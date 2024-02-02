@@ -133,8 +133,8 @@ a:hover {
 @media screen and (max-width: 603px) {
     body {
         border:none;
-        margin-left: 200px;
-        margin-inline-end: -70px;
+        margin-left:200px;
+        marhin-inline-end: -70px;
     }
     img {
         margin-block-start: 35px;
