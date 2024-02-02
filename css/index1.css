@@ -20,18 +20,20 @@ header {
 }
 
 img {
-    width: 40%;
+    width: 80%;
     display: block;
     margin: 0px auto;
     border: 0px solid white;
 }
 
 nav {
+    width: 450px;
+    height: 650px;
     padding: 10px;
     border: 25px solid whitesmoke;
     margin: 0px 100px;
     background-image: url(../image/menufon.jpg);
-    background-size: 100%;
+    background-size: 115%;
 }
     
 nav ul {
@@ -82,7 +84,7 @@ a:hover {
     color: #d35400; 
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1500px) {
     body {
         background-image: none;
         background-position: none;
