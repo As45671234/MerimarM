@@ -1,0 +1,282 @@
+html{
+    scroll-behavior: smooth;
+    background-color: #699ea6;
+}
+
+body {
+    font-family: 'Brush Script MT', cursive;
+    margin: 0;
+    padding: 0;
+    background-image: url(../image/coffee.jpg);
+    background-size: 100%;
+    background-position-y: -250px;
+    background-attachment: fixed;   
+    min-height: 100vh;
+    border: 25px solid #fdce72;
+    border-radius: 700px 700px 0 0; 
+    background-repeat: no-repeat;
+}
+
+header {
+    margin-block-start: -25px;
+    font-style: 'italic', serif;
+    font-size:50px;
+    color: lightyellow;
+    background-size: 1500px;
+}
+
+img {
+    margin-block-start: 30px;
+    width: 40%;
+    display: block;
+    margin: 0px auto;
+    border: 10px solid #ffcc77;
+    border-radius: 100px;
+}
+
+nav {
+    margin-block-start: -35px;
+    padding: 10px 20px;
+    background-size: 1500px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-block-end: -50px;
+    padding: 10px;
+    display: flex;  
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 50px;
+    border: 5px solid lightyellow; /* Blue border around sections */
+    padding: 20px;
+    border-radius: 50px;
+    background-color: burlywood;
+}
+
+nav a{
+    color: lightyellow;
+}
+
+li {
+    color: lightyellow;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.back {
+    background-color: #699ea6;
+}
+
+.drink {
+    margin-block-start: 150px;
+    border-top: 20px solid #fdce72;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #699ea6;
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    border-block-end: 20px solid #fdce72;
+}
+
+.tea {
+    margin-block-start: 150px;
+    border-top: 20px solid #fdce72;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #699ea6;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    border-block-end: 20px solid #fdce72;
+}
+
+.ice_tea {
+    margin-block-start: 150px;
+    border-top: 20px solid #fdce72;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #699ea6;;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    border-block-end: 20px solid #fdce72;
+}
+
+.cold_drink {
+    margin-block-start: 150px;
+    border-top: 20px solid #fdce72;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #699ea6;;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    border-block-end: 20px solid #fdce72;
+}
+
+.limonade {
+    margin-block-start: 150px;
+    border-top: 20px solid #fdce72;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #699ea6;;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    border-block-end: 20px solid #fdce72;
+}
+
+.milk {
+    margin-block-start: 150px;
+    border-top: 20px solid #fdce72;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #699ea6;;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    border-block-end: 20px solid #fdce72;
+}
+
+.smus {
+    margin-block-start: 150px;
+    border-top: 20px solid #fdce72;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #699ea6;;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    border-block-end: 20px solid #fdce72;
+}
+
+.bable_tea {
+    margin-block-start: 150px;
+    border-top: 20px solid #fdce72;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #699ea6;;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    border-block-end: 20px solid #fdce72;
+}
+}
+
+strong {
+    color: lightyellow;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul ul {
+    margin-left: 20px;
+    color: #333; /* Dark text color for menu items */
+}
+
+/* Optional: Style for links */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d35400; /* Orange color on hover */
+}
+
+
+
+@media screen and (max-width: 1800px) {
+    body {
+        background-position-y: 0px;
+        background-position-x: -150px;
+        background-size: 2000px;
+    }
+    nav {
+        margin-block-start: -15px;
+        margin-block-end: -180px;
+    }
+    nav ul {
+        display: initial; 
+    }
+}
+
+@media screen and (max-width: 920px) {
+    header {
+        font-size: 30px;
+        padding: 50px;
+    }
+    nav {
+        margin-block-end: -180px;
+    }
+    nav li {
+        margin: 0 20px;
+    }
+    body {
+        background-position-y: 0px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    body {
+        background-position-y: 0px;
+        background-size: 1500px;
+        background-position-x: -270px;
+    }
+
+    header {
+        font-size: 25px;
+        padding: 50px;
+    }
+    nav {
+        margin-block-end: -180px;
+    }
+
+    nav ul {
+        display: initial; 
+    }
+    nav li {
+        margin: 10px 5px;
+        border: 5px solid lightyellow; /* Blue border around sections */
+        padding: 10px;
+        border-radius: 50px;
+        background-color: burlywood;
+}
+    li {
+        font-size: 16px;
+    }
+
+
+}
+@media screen and (max-width: 480px) {
+    img {
+        width: 70%;
+    }
+    header {
+        font-size: 25px;
+        padding: 50px;
+    }
+    nav {
+         margin-block-end: -180px;
+    }
+
+    nav ul {
+        display: initial; 
+    }
+    nav li {
+        margin: 10px 5px;
+        border: 5px solid lightyellow; /* Blue border around sections */
+        padding: 10px;
+        border-radius: 50px;
+        background-color: burlywood;
+}
+    li {
+        font-size: 16px;
+    }
+}
+footer { 
+    border-top: 20px solid #fdce72;
+    block-size: 200px;
+    background-image: url(../image/menu.jpg);
+    background-size: 1900px;
+    background-position-x: -25px;
+}
