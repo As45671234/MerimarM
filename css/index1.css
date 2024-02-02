@@ -133,11 +133,8 @@ a:hover {
 @media screen and (max-width: 603px) {
     body {
         border:none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        margin: 0;
+        margin-left: 200px;
+        margin-inline-end: -70px;
     }
     img {
         margin-block-start: 35px;
@@ -149,6 +146,7 @@ a:hover {
 @media screen and (max-width: 280px) {
     body {
         border:none;
+        margin-left: 275px;
     }
     img {
         margin-block-start: 35px;
