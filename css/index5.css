@@ -132,19 +132,20 @@ a:hover {
 
 @media screen and (max-width: 603px) {
     body {
-        margin-left: 175px;
+        border:none;
+        margin-left: 200px;
         margin-inline-end: -70px;
     }
     img {
         margin-block-start: 35px;
         margin-block-end: 20px;
         width:60%;
-        height:200px;
     }
 }
 
 @media screen and (max-width: 280px) {
     body {
+        border:none;
         margin-left: 275px;
     }
     img {
