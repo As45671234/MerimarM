@@ -31,7 +31,7 @@ nav {
     border: 25px solid whitesmoke;
     margin: 0px 100px;
     background-image: url(../image/menufon.jpg);
-    background-size: 100%;
+    background-size: 115%;
 }
     
 nav ul {
@@ -99,7 +99,7 @@ a:hover {
         margin-block-end: 75px;
     }
     nav {
-        background-size: 100%;
+        background-size: 115%;
     }
     nav li {
         font-size: 30px;
@@ -121,7 +121,8 @@ a:hover {
     img {
     }
     nav {
-        background-size: 100%;
+        background-size: 145%;
+        background-position-x: -50px;
     }
     nav li {
         font-size: 30px;
