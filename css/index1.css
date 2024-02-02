@@ -20,16 +20,13 @@ header {
 }
 
 img {
-    width: 570px;
-    height: 200px;
+    width: 80%;
     display: block;
     margin: 0px auto;
     border: 0px solid white;
 }
 
 nav {
-    width: 570px;
-    height: 750px;
     padding: 10px;
     border: 25px solid whitesmoke;
     margin: 0px 100px;
@@ -136,7 +133,11 @@ a:hover {
 @media screen and (max-width: 603px) {
     body {
         border:none;
-        margin-left: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
     }
     img {
         margin-block-start: 35px;
@@ -148,7 +149,6 @@ a:hover {
 @media screen and (max-width: 280px) {
     body {
         border:none;
-        margin-left: 275px;
     }
     img {
         margin-block-start: 35px;
