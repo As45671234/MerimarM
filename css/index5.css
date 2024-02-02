@@ -1,0 +1,157 @@
+body {
+    font-family: 'Brush Script MT', cursive;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    border: 25px solid lightyellow;
+    background-image: url(../image/), url(../image/аркафон.jpg); /* Подключение двух изображений */
+    background-position: left top, right top; /* Позиция каждого изображения */
+    background-repeat: no-repeat; /* Отключение повторения изображений */
+    background-size: 50%, 50%; /* Размер каждого изображения */
+    display: flex;
+    justify-content: center; /* Центрирует содержимое по горизонтали */
+    align-items: center; /* Центрирует содержимое по вертикали */
+}
+
+header {
+    font-family: 'Brush Script MT', cursive;
+    color: lightyellow;
+    margin-right: 750px;
+}
+
+img {
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+    border: 0px solid white;
+}
+
+nav {
+    padding: 10px;
+    border: 25px solid whitesmoke;
+    margin: 0px 100px;
+    background-image: url(../image/menufon.jpg);
+    background-size: 115%;
+}
+    
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 25px;
+    display: flex;  
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 50px;
+    border: 5px solid lightyellow;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: burlywood;
+    flex-grow: 1;
+}
+
+nav a{
+    color: lightyellow;
+}
+
+li {
+    color: lightyellow;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul ul {
+    margin-left: 20px;
+    color: #333; /* Dark text color for menu items */
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d35400; 
+}
+
+@media screen and (max-width: 1500px) {
+    body {
+        background-image: none;
+        background-position: none;
+    }
+
+    header {
+        color: lightyellow;
+        margin-right: 0px;
+    }
+    img {
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        margin-block-end: 75px;
+    }
+    nav {
+        background-size: 115%;
+    }
+    nav li {
+        font-size: 30px;
+    }
+    .place {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        background-image: none;
+        background-position: none;
+    }
+
+    header {
+        color: lightyellow;
+    }
+    img {
+    }
+    nav {
+        background-size: 145%;
+        background-position-x: -50px;
+    }
+    nav li {
+        font-size: 30px;
+    }
+
+
+
+@media screen and (max-width: 603px) {
+    body {
+        border:none;
+        margin-left: 200px;
+        margin-inline-end: -70px;
+    }
+    img {
+        margin-block-start: 35px;
+        margin-block-end: 20px;
+        width:60%;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    body {
+        border:none;
+        margin-left: 275px;
+    }
+    img {
+        margin-block-start: 35px;
+        margin-block-end: 20px;
+        width:60%;
+    }
+}
+
